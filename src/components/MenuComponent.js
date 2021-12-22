@@ -1,31 +1,13 @@
-import { render } from '@testing-library/react';
 import React, { useState } from 'react';
 import { Card, CardImg, CardImgOverlay, CardText, CardBody,
     CardTitle } from 'reactstrap';
+import DishDetail from './DishDetail';
 
 const Menu = props => {
     const [selectDish, setSelectDish] = useState(null);
 
     const onDishSelectHandler = (dish) => {
-                console.log(dish);
         setSelectDish(dish);
-    }
-
-    const renderDish = dish => {
-        if (dish != null)
-            return(
-                <Card>
-                    <CardImg top src={dish.image} alt={dish.name} />
-                    <CardBody>
-                      <CardTitle>{dish.name}</CardTitle>
-                      <CardText>{dish.description}</CardText>
-                    </CardBody>
-                </Card>
-            );
-        else
-            return(
-                <div></div>
-            );
     }
 
     const menu = props.dishes.map((dish) => {
@@ -46,11 +28,7 @@ const Menu = props => {
             <div className="row">
                 {menu}
             </div>
-            <div className="row">
-              <div  className="col-12 col-md-10 m-1">
-                {renderDish(selectDish)}
-              </div>
-            </div>
+            <DishDetail dish={selectDish}/>
         </div>
     );
     
