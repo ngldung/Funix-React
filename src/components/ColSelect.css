@@ -1,0 +1,25 @@
+.col-select {
+    color: white;
+    padding: 0 1rem;
+}
+
+.col-select__control {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin: 1rem 0;
+}
+
+.col-select label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.col-select select {
+    font: inherit;
+    padding: 0.5rem 3rem;
+    margin: 0 1rem;
+    font-weight: bold;
+    border-radius: 6px;
+}

@@ -1,0 +1,18 @@
+.staff {
+    padding: 5px 10px;
+}
+
+.staff-col:hover {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.staff-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 2rem;
+    background-color: #370665;
+    color: white;
+}
