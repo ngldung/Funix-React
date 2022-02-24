@@ -1,0 +1,22 @@
+.footer {
+    padding: 0 10%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0DCAF0;
+}
+
+.footerContainer {
+    text-align: center;
+}
+
+.footer1 {
+    display: inline-block;
+    text-align: left;
+    margin: 10px auto;
+}
+
+.footer2 {
+    margin: auto;
+    text-align: center;
+    margin: auto;
+}
