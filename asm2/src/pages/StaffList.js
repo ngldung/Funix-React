@@ -1,7 +1,12 @@
+import ListStaff from "../components/staff/ListStaff";
 
 const StaffList = () => {
   return (
-    <div></div>
+    <div className="row">
+      <h1>Nhân viên</h1>
+      <hr />
+      <ListStaff />
+    </div>
   );
 };
 
