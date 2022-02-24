@@ -5,7 +5,7 @@ import StaffItem from "./StaffItem";
 const ListStaff = () => {
   return (
     <Fragment>
-
+      
       {STAFFS.map((staff) => (
         <StaffItem
           key={staff.id}
