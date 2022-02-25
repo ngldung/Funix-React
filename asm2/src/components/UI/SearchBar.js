@@ -4,7 +4,8 @@ const SearchBar = (props) => {
   const [enteredSearch, setEnteredSearch] = useState("");
 
   const inputSearchHandler = (event) => {
-    setEnteredSearch(event.target.value);
+    const inputLower = event.target.value;
+    setEnteredSearch(inputLower.toLowerCase());
   };
 
   const searchSubmitHandler = (event) => {

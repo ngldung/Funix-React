@@ -7,15 +7,17 @@ import { useHistory, useLocation } from "react-router-dom";
 const StaffList = () => {
   const history = useHistory();
   const location = useLocation();
-
-  const notSearch = location.search === "";
-  console.log(notSearch);
-
   const [staffs, setStaffs] = useState(STAFFS);
+
+  const notSearch = location.search === ""; //Using searchbar or not to render all staff or only searched staff
+
   const onSubmitSearch = (input) => {
-    const filterStaffs = STAFFS.filter((staff) => staff.name === input);
+    //get search input and filter from staffs list to find searched staff
+    const filterStaffs = STAFFS.filter(
+      (staff) => staff.name.toLowerCase() === input
+    );
     setStaffs(filterStaffs);
-    history.push(`/staffs?search=${input}`);
+    history.push(`/staffs?search=${input}`); //change url when searching to be able to back to staffs list
   };
   return (
     <div className="row">

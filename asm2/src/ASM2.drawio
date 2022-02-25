@@ -1,0 +1,363 @@
+<mxfile host="65bd71144e">
+    <diagram id="nBjme0W0I5n35nY3spQu" name="Trang chủ">
+        <mxGraphModel dx="1408" dy="1606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4gdX3YI8pEpleAQvnlCe-42" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="1" vertex="1">
+                    <mxGeometry width="840" height="100" as="geometry"/>
+                </mxCell>
+                <UserObject label="&lt;font style=&quot;font-size: 24px&quot;&gt;Trang chủ&lt;/font&gt;" link="data:page/id,nBjme0W0I5n35nY3spQu" id="3">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=6;" parent="1" vertex="1">
+                        <mxGeometry x="40" y="20" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="4" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;strokeColor=#999999;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="20" width="320" height="60" as="geometry"/>
+                </mxCell>
+                <UserObject label="&lt;font color=&quot;#808080&quot;&gt;Nhân Viên&lt;/font&gt;" link="data:page/id,nBjme0W0I5n35nY3spQu" id="5">
+                    <mxCell style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;fontSize=17;fontColor=#666666;" parent="4" vertex="1">
+                        <mxGeometry width="100" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="&lt;font color=&quot;#b3b3b3&quot;&gt;Phòng Ban&lt;/font&gt;" link="data:page/id,XJchLlYx6YZ9eVOF_EYI" id="6">
+                    <mxCell style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;fontSize=17;fontColor=#666666;" parent="4" vertex="1">
+                        <mxGeometry x="100" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="&lt;font color=&quot;#b3b3b3&quot;&gt;Bảng Lương&lt;/font&gt;" link="data:page/id,JurTSuid6DIP9q0HrF4c" id="7">
+                    <mxCell style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;fontSize=17;fontColor=#666666;" parent="4" vertex="1">
+                        <mxGeometry x="210" width="110" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="14" value="Tìm nhân viên" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.searchBox;strokeColor=#999999;mainText=;strokeColor2=#008cff;fontColor=#666666;fontSize=17;align=left;spacingLeft=3;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="120" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Tìm kiếm" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="190" y="120" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;font style=&quot;font-size: 19px&quot;&gt;Nhân viên&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fontColor=#B3B3B3;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="160" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <UserObject label="Nhân viên 1" link="data:page/id,e0UZXyoKkzDWDw9Rw38v" id="18">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="1" vertex="1">
+                        <mxGeometry x="40" y="220" width="80" height="110" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="37" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="1" vertex="1">
+                    <mxGeometry y="740" width="840" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="Thông tin về website" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="759" width="200" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Các icon mạng xã hội" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="779" width="310" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="Copyright" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="900" width="470" height="40" as="geometry"/>
+                </mxCell>
+                <UserObject label="Nhân viên 2" link="data:page/id,e0UZXyoKkzDWDw9Rw38v" id="kL_IAtysYjXOvUwxCktU-45">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="1" vertex="1">
+                        <mxGeometry x="180" y="220" width="80" height="110" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Nhân viên 3" link="data:page/id,e0UZXyoKkzDWDw9Rw38v" id="kL_IAtysYjXOvUwxCktU-46">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="1" vertex="1">
+                        <mxGeometry x="320" y="220" width="80" height="110" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Nhân viên 4" link="data:page/id,e0UZXyoKkzDWDw9Rw38v" id="kL_IAtysYjXOvUwxCktU-47">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="1" vertex="1">
+                        <mxGeometry x="450" y="220" width="80" height="110" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Nhân viên 5" link="data:page/id,e0UZXyoKkzDWDw9Rw38v" id="kL_IAtysYjXOvUwxCktU-48">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="1" vertex="1">
+                        <mxGeometry x="580" y="220" width="80" height="110" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Nhân viên 6" link="data:page/id,e0UZXyoKkzDWDw9Rw38v" id="kL_IAtysYjXOvUwxCktU-49">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="1" vertex="1">
+                        <mxGeometry x="710" y="220" width="80" height="110" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Nhân viên 7" link="data:page/id,e0UZXyoKkzDWDw9Rw38v" id="kL_IAtysYjXOvUwxCktU-50">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="1" vertex="1">
+                        <mxGeometry x="40" y="400" width="80" height="110" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Nhân viên 8" link="data:page/id,e0UZXyoKkzDWDw9Rw38v" id="kL_IAtysYjXOvUwxCktU-51">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="1" vertex="1">
+                        <mxGeometry x="180" y="400" width="80" height="110" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Nhân viên 9" link="data:page/id,e0UZXyoKkzDWDw9Rw38v" id="kL_IAtysYjXOvUwxCktU-52">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="1" vertex="1">
+                        <mxGeometry x="320" y="400" width="80" height="110" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Nhân viên 10" link="data:page/id,e0UZXyoKkzDWDw9Rw38v" id="kL_IAtysYjXOvUwxCktU-53">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="1" vertex="1">
+                        <mxGeometry x="450" y="400" width="80" height="110" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Nhân viên 11" link="data:page/id,e0UZXyoKkzDWDw9Rw38v" id="kL_IAtysYjXOvUwxCktU-54">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="1" vertex="1">
+                        <mxGeometry x="580" y="400" width="80" height="110" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Nhân viên 12" link="data:page/id,e0UZXyoKkzDWDw9Rw38v" id="kL_IAtysYjXOvUwxCktU-55">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="1" vertex="1">
+                        <mxGeometry x="710" y="400" width="80" height="110" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Nhân viên 13" link="data:page/id,e0UZXyoKkzDWDw9Rw38v" id="kL_IAtysYjXOvUwxCktU-56">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="1" vertex="1">
+                        <mxGeometry x="40" y="570" width="80" height="110" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Nhân viên 14" link="data:page/id,e0UZXyoKkzDWDw9Rw38v" id="kL_IAtysYjXOvUwxCktU-57">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="1" vertex="1">
+                        <mxGeometry x="180" y="570" width="80" height="110" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Nhân viên 15" link="data:page/id,e0UZXyoKkzDWDw9Rw38v" id="kL_IAtysYjXOvUwxCktU-58">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="1" vertex="1">
+                        <mxGeometry x="320" y="570" width="80" height="110" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Nhân viên 16" link="data:page/id,e0UZXyoKkzDWDw9Rw38v" id="kL_IAtysYjXOvUwxCktU-59">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="1" vertex="1">
+                        <mxGeometry x="450" y="570" width="80" height="110" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="Chi tiết nhân viên" id="e0UZXyoKkzDWDw9Rw38v">
+        <mxGraphModel dx="1527" dy="1714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="91B0f-y7n0a95Gl0e5OM-0"/>
+                <mxCell id="91B0f-y7n0a95Gl0e5OM-1" parent="91B0f-y7n0a95Gl0e5OM-0"/>
+                <mxCell id="91B0f-y7n0a95Gl0e5OM-11" value="Nhân viên 1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="91B0f-y7n0a95Gl0e5OM-1" vertex="1">
+                    <mxGeometry x="40" y="200" width="270" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="91B0f-y7n0a95Gl0e5OM-27" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="91B0f-y7n0a95Gl0e5OM-1" vertex="1">
+                    <mxGeometry y="600" width="840" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="91B0f-y7n0a95Gl0e5OM-28" value="Thông tin về website" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="91B0f-y7n0a95Gl0e5OM-1" vertex="1">
+                    <mxGeometry x="110" y="619" width="200" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="91B0f-y7n0a95Gl0e5OM-29" value="Các icon mạng xã hội" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="91B0f-y7n0a95Gl0e5OM-1" vertex="1">
+                    <mxGeometry x="430" y="639" width="310" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="91B0f-y7n0a95Gl0e5OM-30" value="Copyright" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="91B0f-y7n0a95Gl0e5OM-1" vertex="1">
+                    <mxGeometry x="180" y="760" width="470" height="40" as="geometry"/>
+                </mxCell>
+                <UserObject label="&lt;font color=&quot;#4d4d4d&quot;&gt;Nhân viên&lt;/font&gt;" link="data:page/id,nBjme0W0I5n35nY3spQu" id="91B0f-y7n0a95Gl0e5OM-38">
+                    <mxCell style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.navigation.anchor;fontSize=17;fontColor=#ffffff;fontStyle=1;fillColor=#0050ef;strokeColor=#001DBC;" parent="91B0f-y7n0a95Gl0e5OM-1" vertex="1">
+                        <mxGeometry x="40" y="130" width="60" height="30" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="91B0f-y7n0a95Gl0e5OM-39" value="&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.navigation.anchor;fontSize=24;fontColor=#aaaaaa;fontStyle=1;" parent="91B0f-y7n0a95Gl0e5OM-1" vertex="1">
+                    <mxGeometry x="120" y="130" width="6" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="91B0f-y7n0a95Gl0e5OM-40" value="Nhân viên 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.navigation.anchor;fontSize=17;fontColor=#666666;fontStyle=1;" parent="91B0f-y7n0a95Gl0e5OM-1" vertex="1">
+                    <mxGeometry x="150" y="130" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="91B0f-y7n0a95Gl0e5OM-47" value="&lt;b style=&quot;font-size: 30px&quot;&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 30px&quot;&gt;&amp;nbsp; Họ và tên: Nhân viên 1&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&amp;nbsp; &amp;nbsp;Ngày sinh:&lt;br&gt;&amp;nbsp; &amp;nbsp;Ngày vào công ty&lt;br&gt;&amp;nbsp; &amp;nbsp;Phòng Ban&lt;br&gt;&amp;nbsp; &amp;nbsp;Số ngày nghỉ còn lại&lt;br&gt;&amp;nbsp; &amp;nbsp;Số ngày làm thêm" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;align=left;" parent="91B0f-y7n0a95Gl0e5OM-1" vertex="1">
+                    <mxGeometry x="370" y="200" width="430" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="WzBa5DLiAsH-pgS1aGV8-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="91B0f-y7n0a95Gl0e5OM-1" vertex="1">
+                    <mxGeometry width="840" height="100" as="geometry"/>
+                </mxCell>
+                <UserObject label="&lt;font style=&quot;font-size: 24px&quot;&gt;Trang chủ&lt;/font&gt;" id="WzBa5DLiAsH-pgS1aGV8-1">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=6;" parent="91B0f-y7n0a95Gl0e5OM-1" vertex="1">
+                        <mxGeometry x="40" y="20" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="WzBa5DLiAsH-pgS1aGV8-2" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;strokeColor=#999999;" parent="91B0f-y7n0a95Gl0e5OM-1" vertex="1">
+                    <mxGeometry x="490" y="20" width="320" height="60" as="geometry"/>
+                </mxCell>
+                <UserObject label="&lt;font color=&quot;#808080&quot;&gt;Nhân Viên&lt;/font&gt;" id="WzBa5DLiAsH-pgS1aGV8-3">
+                    <mxCell style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;fontSize=17;fontColor=#666666;" parent="WzBa5DLiAsH-pgS1aGV8-2" vertex="1">
+                        <mxGeometry width="100" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="&lt;font color=&quot;#b3b3b3&quot;&gt;Phòng Ban&lt;/font&gt;" link="data:page/id,XJchLlYx6YZ9eVOF_EYI" id="WzBa5DLiAsH-pgS1aGV8-4">
+                    <mxCell style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;fontSize=17;fontColor=#666666;" parent="WzBa5DLiAsH-pgS1aGV8-2" vertex="1">
+                        <mxGeometry x="100" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="&lt;font color=&quot;#b3b3b3&quot;&gt;Bảng Lương&lt;/font&gt;" link="data:page/id,JurTSuid6DIP9q0HrF4c" id="WzBa5DLiAsH-pgS1aGV8-5">
+                    <mxCell style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;fontSize=17;fontColor=#666666;" parent="WzBa5DLiAsH-pgS1aGV8-2" vertex="1">
+                        <mxGeometry x="210" width="110" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="Phòng ban" id="XJchLlYx6YZ9eVOF_EYI">
+        <mxGraphModel dx="1324" dy="1530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="vtnNR3Dd5HsbNhMlGQIN-0"/>
+                <mxCell id="vtnNR3Dd5HsbNhMlGQIN-1" parent="vtnNR3Dd5HsbNhMlGQIN-0"/>
+                <mxCell id="vtnNR3Dd5HsbNhMlGQIN-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="vtnNR3Dd5HsbNhMlGQIN-1" vertex="1">
+                    <mxGeometry width="840" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="vtnNR3Dd5HsbNhMlGQIN-3" value="&lt;font style=&quot;font-size: 24px&quot;&gt;Trang chủ&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=6;" parent="vtnNR3Dd5HsbNhMlGQIN-1" vertex="1">
+                    <mxGeometry x="40" y="20" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="vtnNR3Dd5HsbNhMlGQIN-4" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;strokeColor=#999999;" parent="vtnNR3Dd5HsbNhMlGQIN-1" vertex="1">
+                    <mxGeometry x="490" y="20" width="320" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="vtnNR3Dd5HsbNhMlGQIN-5" value="&lt;font color=&quot;#808080&quot;&gt;Nhân Viên&lt;/font&gt;" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;fontSize=17;fontColor=#666666;" parent="vtnNR3Dd5HsbNhMlGQIN-4" vertex="1">
+                    <mxGeometry width="100" height="60" as="geometry"/>
+                </mxCell>
+                <UserObject label="&lt;font color=&quot;#4d4d4d&quot;&gt;Phòng Ban&lt;/font&gt;" link="data:page/id,XJchLlYx6YZ9eVOF_EYI" id="vtnNR3Dd5HsbNhMlGQIN-6">
+                    <mxCell style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;fontSize=17;fontColor=#666666;" parent="vtnNR3Dd5HsbNhMlGQIN-4" vertex="1">
+                        <mxGeometry x="100" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="&lt;font color=&quot;#b3b3b3&quot;&gt;Bảng Lương&lt;/font&gt;" link="data:page/id,JurTSuid6DIP9q0HrF4c" id="vtnNR3Dd5HsbNhMlGQIN-7">
+                    <mxCell style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;fontSize=17;fontColor=#666666;" parent="vtnNR3Dd5HsbNhMlGQIN-4" vertex="1">
+                        <mxGeometry x="210" width="110" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="vtnNR3Dd5HsbNhMlGQIN-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="vtnNR3Dd5HsbNhMlGQIN-1" vertex="1">
+                    <mxGeometry y="600" width="840" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="vtnNR3Dd5HsbNhMlGQIN-10" value="Thông tin về website" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="vtnNR3Dd5HsbNhMlGQIN-1" vertex="1">
+                    <mxGeometry x="110" y="619" width="200" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="vtnNR3Dd5HsbNhMlGQIN-11" value="Các icon mạng xã hội" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="vtnNR3Dd5HsbNhMlGQIN-1" vertex="1">
+                    <mxGeometry x="430" y="639" width="310" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="vtnNR3Dd5HsbNhMlGQIN-12" value="Copyright" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="vtnNR3Dd5HsbNhMlGQIN-1" vertex="1">
+                    <mxGeometry x="180" y="760" width="470" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="vtnNR3Dd5HsbNhMlGQIN-17" value="" style="edgeStyle=none;html=1;fontSize=30;fontColor=#B3B3B3;" parent="vtnNR3Dd5HsbNhMlGQIN-1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="100" y="145" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="vtnNR3Dd5HsbNhMlGQIN-18" value="Phòng ban 1&lt;br&gt;Số NV" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontColor=#B3B3B3;strokeWidth=6;" parent="vtnNR3Dd5HsbNhMlGQIN-1" vertex="1">
+                    <mxGeometry x="30" y="140" width="230" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="vtnNR3Dd5HsbNhMlGQIN-19" value="Phòng ban 2&lt;br&gt;Số NV" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontColor=#B3B3B3;strokeWidth=6;" parent="vtnNR3Dd5HsbNhMlGQIN-1" vertex="1">
+                    <mxGeometry x="320" y="140" width="230" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="vtnNR3Dd5HsbNhMlGQIN-20" value="Phòng ban 3&lt;br&gt;Số NV" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontColor=#B3B3B3;strokeWidth=6;" parent="vtnNR3Dd5HsbNhMlGQIN-1" vertex="1">
+                    <mxGeometry x="600" y="140" width="230" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="vtnNR3Dd5HsbNhMlGQIN-22" value="Phòng ban 4&lt;br&gt;Số NV" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontColor=#B3B3B3;strokeWidth=6;" parent="vtnNR3Dd5HsbNhMlGQIN-1" vertex="1">
+                    <mxGeometry x="30" y="300" width="230" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="vtnNR3Dd5HsbNhMlGQIN-23" value="Phòng ban 5&lt;br&gt;Số NV" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontColor=#B3B3B3;strokeWidth=6;" parent="vtnNR3Dd5HsbNhMlGQIN-1" vertex="1">
+                    <mxGeometry x="320" y="300" width="230" height="100" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="Bảng lương" id="JurTSuid6DIP9q0HrF4c">
+        <mxGraphModel dx="1324" dy="1530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="F_4rsEr4vtTBcvwoH6e9-0"/>
+                <mxCell id="F_4rsEr4vtTBcvwoH6e9-1" parent="F_4rsEr4vtTBcvwoH6e9-0"/>
+                <mxCell id="F_4rsEr4vtTBcvwoH6e9-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="F_4rsEr4vtTBcvwoH6e9-1" vertex="1">
+                    <mxGeometry width="840" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="F_4rsEr4vtTBcvwoH6e9-3" value="&lt;font style=&quot;font-size: 24px&quot;&gt;Trang chủ&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=6;" parent="F_4rsEr4vtTBcvwoH6e9-1" vertex="1">
+                    <mxGeometry x="40" y="20" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="F_4rsEr4vtTBcvwoH6e9-4" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;strokeColor=#999999;" parent="F_4rsEr4vtTBcvwoH6e9-1" vertex="1">
+                    <mxGeometry x="490" y="20" width="320" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="F_4rsEr4vtTBcvwoH6e9-5" value="&lt;font color=&quot;#808080&quot;&gt;Nhân Viên&lt;/font&gt;" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;fontSize=17;fontColor=#666666;" parent="F_4rsEr4vtTBcvwoH6e9-4" vertex="1">
+                    <mxGeometry width="100" height="60" as="geometry"/>
+                </mxCell>
+                <UserObject label="&lt;font color=&quot;#b3b3b3&quot;&gt;Phòng Ban&lt;/font&gt;" link="data:page/id,XJchLlYx6YZ9eVOF_EYI" id="F_4rsEr4vtTBcvwoH6e9-6">
+                    <mxCell style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;fontSize=17;fontColor=#666666;" parent="F_4rsEr4vtTBcvwoH6e9-4" vertex="1">
+                        <mxGeometry x="100" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="&lt;font color=&quot;#4d4d4d&quot;&gt;Bảng Lương&lt;/font&gt;" link="data:page/id,JurTSuid6DIP9q0HrF4c" id="F_4rsEr4vtTBcvwoH6e9-7">
+                    <mxCell style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;fontSize=17;fontColor=#666666;" parent="F_4rsEr4vtTBcvwoH6e9-4" vertex="1">
+                        <mxGeometry x="210" width="110" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="F_4rsEr4vtTBcvwoH6e9-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="F_4rsEr4vtTBcvwoH6e9-1" vertex="1">
+                    <mxGeometry x="5" y="1660" width="840" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="F_4rsEr4vtTBcvwoH6e9-10" value="Thông tin về website" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="F_4rsEr4vtTBcvwoH6e9-1" vertex="1">
+                    <mxGeometry x="115" y="1679" width="200" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="F_4rsEr4vtTBcvwoH6e9-11" value="Các icon mạng xã hội" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="F_4rsEr4vtTBcvwoH6e9-1" vertex="1">
+                    <mxGeometry x="435" y="1699" width="310" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="F_4rsEr4vtTBcvwoH6e9-12" value="Copyright" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#B3B3B3;strokeWidth=6;" parent="F_4rsEr4vtTBcvwoH6e9-1" vertex="1">
+                    <mxGeometry x="185" y="1820" width="470" height="40" as="geometry"/>
+                </mxCell>
+                <UserObject label="&lt;font color=&quot;#4d4d4d&quot;&gt;Nhân viên&lt;/font&gt;" id="F_4rsEr4vtTBcvwoH6e9-13">
+                    <mxCell style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.navigation.anchor;fontSize=17;fontColor=#ffffff;fontStyle=1;fillColor=#0050ef;strokeColor=#001DBC;" parent="F_4rsEr4vtTBcvwoH6e9-1" vertex="1">
+                        <mxGeometry x="40" y="130" width="60" height="30" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="F_4rsEr4vtTBcvwoH6e9-14" value="&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.navigation.anchor;fontSize=24;fontColor=#aaaaaa;fontStyle=1;" parent="F_4rsEr4vtTBcvwoH6e9-1" vertex="1">
+                    <mxGeometry x="120" y="130" width="6" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="F_4rsEr4vtTBcvwoH6e9-15" value="Bảng lương" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.navigation.anchor;fontSize=17;fontColor=#666666;fontStyle=1;" parent="F_4rsEr4vtTBcvwoH6e9-1" vertex="1">
+                    <mxGeometry x="155" y="130" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4J45_UScVJTbVr_02PDc-0" value="&lt;font&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;Nhân viên 1&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Mã nhân viên &lt;br&gt;Hệ số lương &lt;br&gt;Số giờ làm thêm &lt;br&gt;Lương&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontColor=#B3B3B3;strokeWidth=6;" parent="F_4rsEr4vtTBcvwoH6e9-1" vertex="1">
+                    <mxGeometry x="30" y="180" width="160" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="4J45_UScVJTbVr_02PDc-1" value="&lt;font&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;Nhân viên 2&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Mã nhân viên &lt;br&gt;Hệ số lương &lt;br&gt;Số giờ làm thêm &lt;br&gt;Lương&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontColor=#B3B3B3;strokeWidth=6;" parent="F_4rsEr4vtTBcvwoH6e9-1" vertex="1">
+                    <mxGeometry x="340" y="180" width="160" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="4J45_UScVJTbVr_02PDc-2" value="&lt;font&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;Nhân viên 3&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Mã nhân viên &lt;br&gt;Hệ số lương &lt;br&gt;Số giờ làm thêm &lt;br&gt;Lương&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontColor=#B3B3B3;strokeWidth=6;" parent="F_4rsEr4vtTBcvwoH6e9-1" vertex="1">
+                    <mxGeometry x="650" y="180" width="160" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="4J45_UScVJTbVr_02PDc-3" value="&lt;font&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;Nhân viên 4&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Mã nhân viên &lt;br&gt;Hệ số lương &lt;br&gt;Số giờ làm thêm &lt;br&gt;Lương&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontColor=#B3B3B3;strokeWidth=6;" parent="F_4rsEr4vtTBcvwoH6e9-1" vertex="1">
+                    <mxGeometry x="30" y="420" width="160" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="4J45_UScVJTbVr_02PDc-4" value="&lt;font&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;Nhân viên 5&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Mã nhân viên &lt;br&gt;Hệ số lương &lt;br&gt;Số giờ làm thêm &lt;br&gt;Lương&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontColor=#B3B3B3;strokeWidth=6;" parent="F_4rsEr4vtTBcvwoH6e9-1" vertex="1">
+                    <mxGeometry x="340" y="420" width="160" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="4J45_UScVJTbVr_02PDc-5" value="&lt;font&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;Nhân viên 6&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Mã nhân viên &lt;br&gt;Hệ số lương &lt;br&gt;Số giờ làm thêm &lt;br&gt;Lương&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontColor=#B3B3B3;strokeWidth=6;" parent="F_4rsEr4vtTBcvwoH6e9-1" vertex="1">
+                    <mxGeometry x="650" y="420" width="160" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="4J45_UScVJTbVr_02PDc-6" value="&lt;font&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;Nhân viên 7&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Mã nhân viên &lt;br&gt;Hệ số lương &lt;br&gt;Số giờ làm thêm &lt;br&gt;Lương&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontColor=#B3B3B3;strokeWidth=6;" parent="F_4rsEr4vtTBcvwoH6e9-1" vertex="1">
+                    <mxGeometry x="30" y="670" width="160" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="4J45_UScVJTbVr_02PDc-7" value="&lt;font&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;Nhân viên 8&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Mã nhân viên &lt;br&gt;Hệ số lương &lt;br&gt;Số giờ làm thêm &lt;br&gt;Lương&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontColor=#B3B3B3;strokeWidth=6;" parent="F_4rsEr4vtTBcvwoH6e9-1" vertex="1">
+                    <mxGeometry x="340" y="670" width="160" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="4J45_UScVJTbVr_02PDc-8" value="&lt;font&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;Nhân viên 9&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Mã nhân viên &lt;br&gt;Hệ số lương &lt;br&gt;Số giờ làm thêm &lt;br&gt;Lương&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontColor=#B3B3B3;strokeWidth=6;" parent="F_4rsEr4vtTBcvwoH6e9-1" vertex="1">
+                    <mxGeometry x="650" y="670" width="160" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="4J45_UScVJTbVr_02PDc-9" value="&lt;font&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;Nhân viên 10&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Mã nhân viên &lt;br&gt;Hệ số lương &lt;br&gt;Số giờ làm thêm &lt;br&gt;Lương&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontColor=#B3B3B3;strokeWidth=6;" parent="F_4rsEr4vtTBcvwoH6e9-1" vertex="1">
+                    <mxGeometry x="30" y="920" width="160" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="4J45_UScVJTbVr_02PDc-10" value="&lt;font&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;Nhân viên 11&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Mã nhân viên &lt;br&gt;Hệ số lương &lt;br&gt;Số giờ làm thêm &lt;br&gt;Lương&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontColor=#B3B3B3;strokeWidth=6;" parent="F_4rsEr4vtTBcvwoH6e9-1" vertex="1">
+                    <mxGeometry x="340" y="920" width="160" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="4J45_UScVJTbVr_02PDc-11" value="&lt;font&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;Nhân viên 12&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Mã nhân viên &lt;br&gt;Hệ số lương &lt;br&gt;Số giờ làm thêm &lt;br&gt;Lương&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontColor=#B3B3B3;strokeWidth=6;" parent="F_4rsEr4vtTBcvwoH6e9-1" vertex="1">
+                    <mxGeometry x="650" y="920" width="160" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="4J45_UScVJTbVr_02PDc-12" value="&lt;font&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;Nhân viên 13&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Mã nhân viên &lt;br&gt;Hệ số lương &lt;br&gt;Số giờ làm thêm &lt;br&gt;Lương&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontColor=#B3B3B3;strokeWidth=6;" parent="F_4rsEr4vtTBcvwoH6e9-1" vertex="1">
+                    <mxGeometry x="30" y="1170" width="160" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="4J45_UScVJTbVr_02PDc-13" value="&lt;font&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;Nhân viên 14&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Mã nhân viên &lt;br&gt;Hệ số lương &lt;br&gt;Số giờ làm thêm &lt;br&gt;Lương&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontColor=#B3B3B3;strokeWidth=6;" parent="F_4rsEr4vtTBcvwoH6e9-1" vertex="1">
+                    <mxGeometry x="340" y="1170" width="160" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="4J45_UScVJTbVr_02PDc-14" value="&lt;font&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;Nhân viên 15&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Mã nhân viên &lt;br&gt;Hệ số lương &lt;br&gt;Số giờ làm thêm &lt;br&gt;Lương&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontColor=#B3B3B3;strokeWidth=6;" parent="F_4rsEr4vtTBcvwoH6e9-1" vertex="1">
+                    <mxGeometry x="650" y="1170" width="160" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="4J45_UScVJTbVr_02PDc-15" value="&lt;font&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;Nhân viên 16&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Mã nhân viên &lt;br&gt;Hệ số lương &lt;br&gt;Số giờ làm thêm &lt;br&gt;Lương&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontColor=#B3B3B3;strokeWidth=6;" parent="F_4rsEr4vtTBcvwoH6e9-1" vertex="1">
+                    <mxGeometry x="30" y="1420" width="160" height="200" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

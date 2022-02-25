@@ -5,17 +5,19 @@ import { STAFFS } from "../shared/staffs";
 
 const StaffDetail = () => {
   const params = useParams();
-  console.log(params.staffId);
-  const staffsList = STAFFS;
-  const selectedStaff = staffsList.find((staff) => staff.id.toString() === params.staffId);
-  console.log(selectedStaff);
+  const selectedStaff = STAFFS.find(
+    (staff) => staff.id.toString() === params.staffId
+  ); //check url param with id of staff
   if (!selectedStaff) {
     return <p>NO STAFF FOUND</p>;
   }
+
+  // turn Iso Date to normal date format
   const isoStartDate = new Date(selectedStaff.startDate);
-  const startDate = isoStartDate.toLocaleDateString('en-GB');
+  const startDate = isoStartDate.toLocaleDateString("en-GB");
   const isoDOB = new Date(selectedStaff.doB);
-  const doB = isoDOB.toLocaleDateString('en-GB');
+  const doB = isoDOB.toLocaleDateString("en-GB");
+
   return (
     <Fragment>
       <DetailStaff
