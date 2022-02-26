@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import { Navbar, NavbarBrand } from "reactstrap";
 import Menu from "./MenuComponent";
-import DishDetail from "./DishDetailComponent";
 import { DISHES } from "../shared/dishes";
+import DishDetail from "./DishDetailComponent";
 
 const Main = () => {
   const [selectedDish, setSelectedDish] = useState(null);
 
-  const onDishSelect = (dish) => {
-    console.log(dish);
-    setSelectedDish(dish);
+  const onDishSelect = (dishId) => {
+    console.log(dishId);
+    setSelectedDish(dishId);
   };
 
   return (
@@ -19,11 +19,10 @@ const Main = () => {
           <NavbarBrand href="/">Ristorante Con Fusion</NavbarBrand>
         </div>
       </Navbar>
-      <Menu
-        dishes={DISHES}
-        onClick={(dishId) => onDishSelect(dishId)}
-        selectedDish={selectedDish}
-      />
+      <div className="container">
+      <Menu dishes={DISHES} onClick={(dishId) => onDishSelect(dishId)} />
+      <DishDetail dish={DISHES.filter((dish) => dish.id === selectedDish)[0]} />
+      </div>
     </div>
   );
 };
