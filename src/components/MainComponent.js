@@ -1,26 +1,33 @@
 import React, { useState } from "react";
 import Menu from "./MenuComponent";
 import { DISHES } from "../shared/dishes";
-import DishDetail from "./DishDetailComponent";
 import Header from "../UI/Header";
 import Footer from "../UI/Footer";
+import Home from "./HomeComponet";
+import { Switch, Route, Redirect } from "react-router-dom";
 
 const Main = () => {
-  const [selectedDish, setSelectedDish] = useState(null);
 
-  const onDishSelect = (dishId) => {
-    console.log(dishId);
-    setSelectedDish(dishId);
-  };
+
 
   return (
     <div>
       <Header />
       <div className="container">
-        <Menu dishes={DISHES} onClick={(dishId) => onDishSelect(dishId)} />
-        <DishDetail
-          dish={DISHES.filter((dish) => dish.id === selectedDish)[0]}
-        />
+    <Switch>
+        <Route path="/home">
+            <Home />
+        </Route>
+        <Route path="/menu">
+        <Menu dishes={DISHES} />
+        </Route>
+        <Route path="/*">
+        <Redirect to="/home" />
+        </Route>
+    </Switch>
+
+
+
       </div>
       <Footer />
     </div>
