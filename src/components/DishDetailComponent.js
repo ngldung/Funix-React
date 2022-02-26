@@ -1,13 +1,7 @@
 import React from "react";
-import {
-  Card,
-  CardImg,
-  CardText,
-  CardBody,
-  CardTitle,
-} from "reactstrap";
+import { Card, CardImg, CardText, CardBody, CardTitle } from "reactstrap";
 
-const renderDish = (dish) => {
+function RenderDish(dish) {
   if (dish != null)
     return (
       <Card>
@@ -19,25 +13,31 @@ const renderDish = (dish) => {
       </Card>
     );
   else return <div></div>;
-};
+}
+
+function RenderComments(dish) {
+  if (dish != null)
+    return (
+      <Card>
+        <h1>Comments</h1>
+        {dish.comments.map((comment) => (
+          <div key={comment.id}>
+            <p>{comment.comment}</p>
+            <p>{`${comment.author}, ${comment.date}`}</p>
+          </div>
+        ))}
+      </Card>
+    );
+  else return <div></div>;
+}
 
 const DishDetail = (props) => {
   const dish = props.dish;
   return (
     <div className="row">
-      <div className="col-12 col-md-5 m-1">{renderDish(dish)}</div>
+      <div className="col-12 col-md-5 m-1">{RenderDish(dish)}</div>
 
-      {dish && (<div className="col-12 col-md-5 m-1">
-        <Card>
-          <h1>Comments</h1>
-          {dish.comments.map((comment) => (
-            <div key={comment.id}>
-              <p>{comment.comment}</p>
-              <p>{`${comment.author}, ${comment.date}`}</p>
-            </div>
-          ))}
-        </Card>
-      </div>)}
+      <div className="col-12 col-md-5 m-1">{RenderComments(dish)}</div>
     </div>
   );
 };
