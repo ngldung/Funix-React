@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Card, CardImg, CardImgOverlay, CardTitle } from "reactstrap";
 import DishDetail from "./DishDetailComponent";
 
-function RenderMenuItem({ dish, onClick }) {
+function RenderMenuItem({ dish }) {
   return (
     <Card>
       <CardImg width="100%" src={dish.image} alt={dish.name} />
