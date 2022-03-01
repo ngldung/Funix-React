@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Menu from "./MenuComponent";
 import Header from "../UI/Header";
 import Footer from "../UI/Footer";
@@ -8,8 +8,17 @@ import Contact from "./ContactComponent";
 import { DISHES } from "../shared/dishes";
 import { PROMOTIONS } from "../shared/promotion";
 import { LEADERS } from "../shared/leaders";
+import { COMMENTS } from "../shared/comments";
+import DishDetail from "./DishDetailComponent";
 
 const Main = () => {
+
+  const DishWithId = ({match}) => {
+    return(
+        <DishDetail dish={DISHES.filter((dish) => dish.id === parseInt(match.params.dishId,10))[0]} 
+          comments={COMMENTS.filter((comment) => comment.dishId === parseInt(match.params.dishId,10))} />
+    );
+  };
 
   return (
     <div>
@@ -23,12 +32,13 @@ const Main = () => {
               promotion={PROMOTIONS.filter((promo) => promo.featured)[0]}
             />
           </Route>
-          <Route path="/menu">
+          <Route path="/menu" exact>
             <Menu dishes={DISHES} />
           </Route>
           <Route path="/contactus">
             <Contact />
           </Route>
+          <Route path='/menu/:dishId' component={DishWithId} />
           <Route path="/*">
             <Redirect to="/home" />
           </Route>
