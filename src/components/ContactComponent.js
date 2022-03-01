@@ -9,6 +9,8 @@ import {
   Label,
   Input,
   Col,
+  Row,
+  FormFeedback,
 } from "reactstrap";
 
 const INITIAL_INPUT = {
@@ -20,17 +22,24 @@ const INITIAL_INPUT = {
   contactType: "Tel.",
   message: "",
 };
+const INITIAL_TOUCHED = {
+  firstname: false,
+  lastname: false,
+  telnum: false,
+  email: false,
+};
 
 const Contact = (props) => {
   const [userInput, setUserInput] = useState(INITIAL_INPUT);
+  const [touchedInput, setTouchedInput] = useState(INITIAL_TOUCHED);
 
   const handleInputChange = (event) => {
     const target = event.target;
     const value = target.type === "checkbox" ? target.checked : target.value;
     const name = target.name;
 
-    setUserInput(prevInput => {
-      return {...prevInput, [name]: value}
+    setUserInput((prevInput) => {
+      return { ...prevInput, [name]: value };
     });
   };
 
@@ -39,6 +48,50 @@ const Contact = (props) => {
     console.log("Current State is: " + JSON.stringify(userInput));
     alert("Current State is: " + JSON.stringify(userInput));
   };
+
+  const handleBlur = (field) => {
+    setTouchedInput((prevTouched) => {
+      return { ...prevTouched, [field]: true };
+    });
+  };
+
+  const validate = (firstname, lastname, telnum, email) => {
+    const errors = {
+      firstname: "",
+      lastname: "",
+      telnum: "",
+      email: "",
+    };
+
+    if (touchedInput.firstname && firstname.length < 3)
+      errors.firstname = "First Name should be >= 3 characters";
+    else if (touchedInput.firstname && firstname.length > 10)
+      errors.firstname = "First Name should be <= 10 characters";
+
+    if (touchedInput.lastname && lastname.length < 3)
+      errors.lastname = "Last Name should be >= 3 characters";
+    else if (touchedInput.lastname && lastname.length > 10)
+      errors.lastname = "Last Name should be <= 10 characters";
+
+    const reg = /^\d+$/;
+    if (touchedInput.telnum && !reg.test(telnum))
+      errors.telnum = "Tel. Number should contain only numbers";
+
+    if (
+      touchedInput.email &&
+      email.split("").filter((x) => x === "@").length !== 1
+    )
+      errors.email = "Email should contain a @";
+
+    return errors;
+  };
+
+  const errors = validate(
+    userInput.firstname,
+    userInput.lastname,
+    userInput.telnum,
+    userInput.email
+  );
 
   return (
     <div>
@@ -73,8 +126,12 @@ const Contact = (props) => {
                   name="firstname"
                   placeholder="First Name"
                   value={userInput.firstname}
+                  valid={errors.firstname === ""}
+                  invalid={errors.firstname !== ""}
+                  onBlur={() => handleBlur("firstname")}
                   onChange={handleInputChange}
                 />
+                <FormFeedback>{errors.firstname}</FormFeedback>
               </Col>
             </FormGroup>
             <FormGroup row>
@@ -88,8 +145,12 @@ const Contact = (props) => {
                   name="lastname"
                   placeholder="Last Name"
                   value={userInput.lastname}
+                  valid={errors.lastname === ""}
+                  invalid={errors.lastname !== ""}
+                  onBlur={() => handleBlur("lastname")}
                   onChange={handleInputChange}
                 />
+                <FormFeedback>{errors.lastname}</FormFeedback>
               </Col>
             </FormGroup>
             <FormGroup row>
@@ -101,10 +162,14 @@ const Contact = (props) => {
                   type="tel"
                   id="telnum"
                   name="telnum"
-                  placeholder="Tel. number"
+                  placeholder="Tel. Number"
                   value={userInput.telnum}
+                  valid={errors.telnum === ""}
+                  invalid={errors.telnum !== ""}
+                  onBlur={() => handleBlur("telnum")}
                   onChange={handleInputChange}
                 />
+                <FormFeedback>{errors.telnum}</FormFeedback>
               </Col>
             </FormGroup>
             <FormGroup row>
@@ -118,56 +183,12 @@ const Contact = (props) => {
                   name="email"
                   placeholder="Email"
                   value={userInput.email}
+                  valid={errors.email === ""}
+                  invalid={errors.email !== ""}
+                  onBlur={() => handleBlur("email")}
                   onChange={handleInputChange}
                 />
-              </Col>
-            </FormGroup>
-            <FormGroup row>
-              <Col md={{ size: 6, offset: 2 }}>
-                <FormGroup check>
-                  <Label check>
-                    <Input
-                      type="checkbox"
-                      name="agree"
-                      checked={userInput.agree}
-                      onChange={handleInputChange}
-                    />{" "}
-                    <strong>May we contact you?</strong>
-                  </Label>
-                </FormGroup>
-              </Col>
-              <Col md={{ size: 3, offset: 1 }}>
-                <Input
-                  type="select"
-                  name="contactType"
-                  value={userInput.contactType}
-                  onChange={handleInputChange}
-                >
-                  <option>Tel.</option>
-                  <option>Email</option>
-                </Input>
-              </Col>
-            </FormGroup>
-            <FormGroup row>
-              <Label htmlFor="message" md={2}>
-                Your Feedback
-              </Label>
-              <Col md={10}>
-                <Input
-                  type="textarea"
-                  id="message"
-                  name="message"
-                  rows="12"
-                  value={userInput.message}
-                  onChange={handleInputChange}
-                ></Input>
-              </Col>
-            </FormGroup>
-            <FormGroup row>
-              <Col md={{ size: 10, offset: 2 }}>
-                <Button type="submit" color="primary">
-                  Send Feedback
-                </Button>
+                <FormFeedback>{errors.email}</FormFeedback>
               </Col>
             </FormGroup>
           </Form>
