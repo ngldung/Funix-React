@@ -1,11 +1,11 @@
 import { Fragment } from "react";
 import { useParams } from "react-router-dom";
 import DetailStaff from "../components/staff/DetailStaff";
-import { STAFFS } from "../shared/staffs";
-
+import { useSelector } from "react-redux";
 const StaffDetail = () => {
   const params = useParams();
-  const selectedStaff = STAFFS.find(
+  const staffs = useSelector(state => state.totalStaffs);
+  const selectedStaff = staffs.find(
     (staff) => staff.id.toString() === params.staffId
   ); //check url param with id of staff
   if (!selectedStaff) {

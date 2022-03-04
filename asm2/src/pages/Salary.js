@@ -6,7 +6,7 @@ import { useHistory, useLocation } from "react-router-dom";
 
 //Function to execute sort by id or sort by salary
 const sortStaffs = (staffs, sortById) => {
-  return staffs.sort((staffA, staffB) => {
+  return staffs.slice().sort((staffA, staffB) => {
     if (sortById) {
       return staffA.id > staffB.id ? 1 : -1; //if sort by id -> use this calculation to sort
     } else {
@@ -38,7 +38,7 @@ const Salary = () => {
     <div>
       {/* Use breadcumb to make nav link visible */}
       <Breadcrumb>
-        <Breadcrumb.Item href="/"> Nhân Viên </Breadcrumb.Item>
+        <Breadcrumb.Item as="div"> Nhân Viên </Breadcrumb.Item>
         <Breadcrumb.Item active> Bảng Lương </Breadcrumb.Item>
       </Breadcrumb>
       <div className={classes.sorting}>

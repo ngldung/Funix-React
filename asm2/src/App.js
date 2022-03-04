@@ -24,7 +24,7 @@ function App() {
         <Route path="/salary">
           <Salary />
         </Route>
-        <Route path="*">
+           <Route path="*">
           <h1>Page Not Found!!!!!</h1>
         </Route>
       </Switch>

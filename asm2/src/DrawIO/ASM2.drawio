@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="nBjme0W0I5n35nY3spQu" name="Trang chủ">
-        <mxGraphModel dx="1408" dy="1606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1324" dy="1530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -135,7 +135,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="Chi tiết nhân viên" id="e0UZXyoKkzDWDw9Rw38v">
-        <mxGraphModel dx="1527" dy="1714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1712" dy="1882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="91B0f-y7n0a95Gl0e5OM-0"/>
                 <mxCell id="91B0f-y7n0a95Gl0e5OM-1" parent="91B0f-y7n0a95Gl0e5OM-0"/>
@@ -198,7 +198,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="Phòng ban" id="XJchLlYx6YZ9eVOF_EYI">
-        <mxGraphModel dx="1324" dy="1530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1798" dy="1960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="vtnNR3Dd5HsbNhMlGQIN-0"/>
                 <mxCell id="vtnNR3Dd5HsbNhMlGQIN-1" parent="vtnNR3Dd5HsbNhMlGQIN-0"/>
