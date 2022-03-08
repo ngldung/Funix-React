@@ -10,86 +10,16 @@ import {
 } from "reactstrap";
 import { Control, LocalForm, Errors } from "react-redux-form";
 
-const INITIAL_INPUT = {
-  firstname: "",
-  lastname: "",
-  telnum: "",
-  email: "",
-  agree: false,
-  contactType: "Tel.",
-  message: "",
-};
-const INITIAL_TOUCHED = {
-  firstname: false,
-  lastname: false,
-  telnum: false,
-  email: false,
-};
 
 const Contact = (props) => {
-  const [userInput, setUserInput] = useState(INITIAL_INPUT);
-  const [touchedInput, setTouchedInput] = useState(INITIAL_TOUCHED);
-
-  const handleInputChange = (event) => {
-    const target = event.target;
-    const value = target.type === "checkbox" ? target.checked : target.value;
-    const name = target.name;
-
-    setUserInput((prevInput) => {
-      return { ...prevInput, [name]: value };
-    });
-  };
-
+  
   const handleSubmit = (values) => {
     console.log('Current State is: ' + JSON.stringify(values));
     alert('Current State is: ' + JSON.stringify(values));
     // event.preventDefault();
 }
 
-  const handleBlur = (field) => {
-    setTouchedInput((prevTouched) => {
-      return { ...prevTouched, [field]: true };
-    });
-  };
-
-  const validate = (firstname, lastname, telnum, email) => {
-    const errors = {
-      firstname: "",
-      lastname: "",
-      telnum: "",
-      email: "",
-    };
-
-    if (touchedInput.firstname && firstname.length < 3)
-      errors.firstname = "First Name should be >= 3 characters";
-    else if (touchedInput.firstname && firstname.length > 10)
-      errors.firstname = "First Name should be <= 10 characters";
-
-    if (touchedInput.lastname && lastname.length < 3)
-      errors.lastname = "Last Name should be >= 3 characters";
-    else if (touchedInput.lastname && lastname.length > 10)
-      errors.lastname = "Last Name should be <= 10 characters";
-
-    const reg = /^\d+$/;
-    if (touchedInput.telnum && !reg.test(telnum))
-      errors.telnum = "Tel. Number should contain only numbers";
-
-    if (
-      touchedInput.email &&
-      email.split("").filter((x) => x === "@").length !== 1
-    )
-      errors.email = "Email should contain a @";
-
-    return errors;
-  };
-
-  const errors = validate(
-    userInput.firstname,
-    userInput.lastname,
-    userInput.telnum,
-    userInput.email
-  );
-
+  
   return (
     <div>
       <div className="row">
