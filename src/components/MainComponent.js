@@ -5,47 +5,48 @@ import Footer from "../UI/Footer";
 import Home from "./HomeComponet";
 import { Switch, Route, Redirect } from "react-router-dom";
 import Contact from "./ContactComponent";
-import { DISHES } from "../shared/dishes";
-import { PROMOTIONS } from "../shared/promotion";
-import { LEADERS } from "../shared/leaders";
-import { COMMENTS } from "../shared/comments";
 import DishDetail from "./DishDetailComponent";
+import { useSelector } from "react-redux";
+import About from "./AboutComponent";
 
 const Main = () => {
+const dishes = useSelector(state => state.dishes);
+const promotions = useSelector(state => state.promotions);
+const comments = useSelector(state => state.comments);
+const leaders = useSelector(state => state.leaders);
+
+  const HomePage = () => {
+    return(
+        <Home 
+            dish={dishes.filter((dish) => dish.featured)[0]}
+            promotion={promotions.filter((promo) => promo.featured)[0]}
+            leader={leaders.filter((leader) => leader.featured)[0]}
+        />
+    );
+  }
 
   const DishWithId = ({match}) => {
     return(
-        <DishDetail dish={DISHES.filter((dish) => dish.id === parseInt(match.params.dishId,10))[0]} 
-          comments={COMMENTS.filter((comment) => comment.dishId === parseInt(match.params.dishId,10))} />
+        <DishDetail dish={dishes.filter((dish) => dish.id === parseInt(match.params.dishId,10))[0]} 
+          comments={comments.filter((comment) => comment.dishId === parseInt(match.params.dishId,10))} />
     );
   };
 
   return (
     <div>
-      <Header />
-      <div className="container">
-        <Switch>
-          <Route path="/home">
-            <Home
-              dish={DISHES.filter((dish) => dish.featured)[0]}
-              leader={LEADERS.filter((leader) => leader.featured)[0]}
-              promotion={PROMOTIONS.filter((promo) => promo.featured)[0]}
-            />
-          </Route>
-          <Route path="/menu" exact>
-            <Menu dishes={DISHES} />
-          </Route>
-          <Route path="/contactus">
-            <Contact />
-          </Route>
-          <Route path='/menu/:dishId' component={DishWithId} />
-          <Route path="/*">
-            <Redirect to="/home" />
-          </Route>
-        </Switch>
+        <Header />
+        <div>
+          <Switch>
+              <Route path='/home' component={HomePage} />
+              <Route exact path='/aboutus' component={() => <About leaders={leaders} />} />
+              <Route exact path='/menu' component={() => <Menu dishes={dishes} />} />
+              <Route path='/menu/:dishId' component={DishWithId} />
+              <Route exact path='/contactus' component={Contact} />
+              <Redirect to="/home" />
+          </Switch>
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
   );
 };
 
